@@ -28,6 +28,7 @@ li[aria-hidden='false'] { display:block ; }
 .pularNavegacao:focus,
 .pularNavegacao:hover {
   text-indent: 100%;
+  display: block;
   white-space: nowrap;
   overflow: hidden;
   width: 1px;

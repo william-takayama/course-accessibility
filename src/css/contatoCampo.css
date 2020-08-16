@@ -27,7 +27,17 @@
 }
 
 .contatoCampo-checkbox {
-  display: none;
+  /*
+  ** display none & visibility hidden & attr hidden & width|height 0 - hide from all users (content is removed)
+  ** If you want to be available for users - use 
+  */
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
 }
 
 .contatoCampo-icone {
